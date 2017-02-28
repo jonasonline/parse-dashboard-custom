@@ -21,5 +21,5 @@ app.use('/', dashboard);
 var port = process.env.PORT || 4040;
 var httpServer = require('http').createServer(app);
 httpServer.listen(port, function() {
-  console.log('parse-dashboard-example running on port ' + port + '.');
+  console.log('parse-dashboard running on port ' + port + '.');
 });
