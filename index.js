@@ -10,6 +10,7 @@ var dashboard = new ParseDashboard({
       appName: process.env.APP_NAME || 'MyApp',
     },
   ],
+  "trustProxy": 1
 });
 
 var app = express();
